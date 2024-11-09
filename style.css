@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    padding: 100px;
+    justify-content: space-around;
+    color: white;
+    
+} 
+
+
+header {
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header a {
+    font-size: 18px;
+    color: rgb(9,38,226);
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.headImg, .headfim {
+    height: 80px;
+    margin: 20px;
+}
+
+.sobre-nos {
+    height: 40%;
+}
+
+.sobre-nos p {
+    color: white;
+    font-size: 14px;
+}
+
+.logo-img {
+    height: 200px;
+}
+
+button {
+    background-color: #c51111;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: linear-gradient(0deg, rgba(22,25,22,1) 0%, rgba(237,230,230,1) 100%);
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+    color: #c51111;
+}
+
+
+
+.cogumelo {
+    height: 200px;
+
+}
+
+
+.whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.whatsapp img {
+    height: 60px;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+
+   }
+
+.video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+header a:hover {
+    background: linear-gradient(0deg, rgba(22,25,22,1) 0%, rgba(189,24,24,1) 100%);
+    font-size: 24px;
+    transition: 0.5s ease-in-out;
+}
+
+.formulario {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30px;
+    left: -320px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 15px;
+
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 1%, 57%);
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
+textarea {
+    height: 100px;
+    font-weight: 270px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 1%, 57%);
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
+label {
+    padding-left: 10px;
+}
+.menor-form {
+    font-size: 10px;
+}
+
+.mascara-formulario {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+}
