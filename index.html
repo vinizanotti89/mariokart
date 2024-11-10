@@ -16,7 +16,7 @@
 
 
 <body>
-    <div class="mascara-formulario"></div>
+    <div class="mascara-formulario" onclick="hiddenmasc()"></div>
     <header>
         <img src="./img/logo-header.webp" class="headImg">
         <a class="headLink" href="https://github.com/vinizanotti89" target="_blank">GitHub</a>
@@ -55,16 +55,20 @@
         <video src="./video/video.mp4" loop autoplay muted class="video"></video>
         <div class="mascara"></div>
     </div>
-    <form class="formulario">
-        <input placeholder="Nome">
-        <input placeholder="Telefone">
-        <input placeholder="EMAIL">
-        <textarea placeholder="Quer um site pra você? Só enviar sua necessidade que nós criamos pra você!"></textarea>
-        <label>Envie seu Arquivo Se preferir <br> <label class="menor-form">PDF OU IMAGEM</label></label>
-        <input type="file" name="arquivo">
+        <form   class="formulario" 
+                action="https://formcarry.com/s/Ljfc011-OEt"
+                method="POST"
+                enctype="multipart/form-data">
+        
+                <input placeholder="Nome" type="text" name="name">
+                <input placeholder="Telefone" type="tel" name="tel">
+                <input placeholder="EMAIL">
+                <textarea placeholder="Quer um site pra você? Só enviar sua necessidade que nós criamos pra você!"  name="contato"></textarea>
+                <label>Envie seu Arquivo Se preferir <br> <label class="menor-form">PDF OU IMAGEM</label></label>
+                <input type="file" name="arquivo">
 
-        <button>SOLICITAR ORÇAMENTO</button>
-    </form>
+                <button type="submit">SOLICITAR ORÇAMENTO</button>
+        </form>
 </body>
-
+<script src="scripts.js"></script>
 </html>
