@@ -31,7 +31,7 @@ header {
 
 header a {
     font-size: 18px;
-    color: rgb(9,38,226);
+    color: rgb(103, 117, 207);
     cursor: pointer;
     text-decoration: none;
     
@@ -123,16 +123,17 @@ header a:hover {
     transition: 0.5s ease-in-out;
 }
 
-.formulario {
+.formulario {   
     background-color: white;
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 30px;
+    top: 30%;
     left: -320px;
     padding: 20px;
     border-radius: 5px;
     gap: 15px;
+    transition: left 1s ease-in-out;
 
 }
 
@@ -161,10 +162,11 @@ label {
 }
 
 .mascara-formulario {
+    visibility: hidden;
     position: fixed;
     top: 0;
     width: 100vw;
     height: 100vh;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-
+    transition: left 1s ease-in-out;
 }
