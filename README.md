@@ -1,3 +1,8 @@
+🌟 Observação importante:
+Este projeto foi criado para experimentar ideias e exercitar técnicas.
+Não representa um projeto de design finalizado, mas sim um estudo livre de possibilidades.
+
+
 🎮 Projeto MarioKart Mini Portfolio 
 Esse projeto era pra ser só um exercício simples: criar uma página de contato temática dos irmãos Mario.
 Mas eu não resisti... resolvi brincar e transformar tudo em um mini portfólio inspirado no universo Mario Bros.
