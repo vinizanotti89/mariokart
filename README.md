@@ -1,13 +1,16 @@
 🌟 Observação importante:
+
 Este projeto foi criado para experimentar ideias e exercitar técnicas.
 Não representa um projeto de design finalizado, mas sim um estudo livre de possibilidades.
 
 
 🎮 Projeto MarioKart Mini Portfolio 
+
 Esse projeto era pra ser só um exercício simples: criar uma página de contato temática dos irmãos Mario.
 Mas eu não resisti... resolvi brincar e transformar tudo em um mini portfólio inspirado no universo Mario Bros.
 
 Resultado?
+
 Uma bagunça generalizada — mas cheia de criatividade! 🍄🏎️🧰🛠️🚰
 
 📄 Descrição do Projeto
@@ -23,6 +26,7 @@ Uma bagunça generalizada — mas cheia de criatividade! 🍄🏎️🧰🛠️�
 - Caixa de contato para envio de mensagens (integração simulada).
 
 Resumo:
+
 Um projeto divertido, criado para exercitar não só HTML/CSS/JS, mas também liberdade criativa e testes de interação.
 
 🎯 Funcionalidades Implementadas
@@ -56,10 +60,12 @@ CSS3
 JavaScript (nativo)
 
 🚀 Link do Projeto Bagunça
+
 https://mariokart-six.vercel.app/
 
 
 📚 Aprendizados
+
 - Aplicação de vídeos como fundo dinâmico de site.
 
 - Organização (ou tentativa 😅) de múltiplos elementos interativos em uma única tela.
